@@ -1,5 +1,9 @@
+import java.util.Iterator;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        DeckofCards deck = new DeckofCards();
+        System.out.println(deck);
+
     }
 }
